@@ -169,6 +169,7 @@ L'inventaire complet. [Détail →](setup/overview.md)
 | Essai | Sujet |
 |-------|-------|
 | [On Agentic Engineering](essays/2026-02-25-on-agentic-engineering.md) | Notes d'un cinéaste qui a traversé plusieurs ruptures technologiques — et reconnaît celle-ci. |
+| [L'échelle d'adoption et la scripte](essays/2026-07-17-the-adoption-ladder-and-the-scripte.fr.md) ([EN](essays/2026-07-17-the-adoption-ladder-and-the-scripte.md)) | Ce qu'un modèle de maturité d'ingénieur ne voit pas du travail créatif : les boucles de vérification du cinéma étaient faites de personnes, une pratique solo doit les reconstruire en agents. |
 
 ## Journal
 

@@ -169,6 +169,7 @@ The full inventory. [Detailed breakdown →](setup/overview.md)
 | Essay | Topic |
 |-------|-------|
 | [On Agentic Engineering](essays/2026-02-25-on-agentic-engineering.md) | Notes from a filmmaker who's been through multiple technological ruptures — and recognizes this one. |
+| [The Adoption Ladder and the Scripte](essays/2026-07-17-the-adoption-ladder-and-the-scripte.md) ([FR](essays/2026-07-17-the-adoption-ladder-and-the-scripte.fr.md)) | What an engineering AI-maturity model misses about creative work: cinema's verification loops were made of people, and a solo practice has to rebuild them as agents. |
 
 ## Journal
 
