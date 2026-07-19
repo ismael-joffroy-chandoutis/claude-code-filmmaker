@@ -34,7 +34,7 @@ agentic-cli-filmmaker/
 ├── config/       # Global instructions structure, settings.json annotated
 ├── patterns/     # 14 reusable patterns (tmux, memory, notifications, agent teams...)
 ├── hooks/        # Push notifications, auto tab naming, tmux layout management
-├── remote/       # Every way to run the agent remotely — compared
+├── remote/       # Every way to run the agent remotely, compared
 ├── setup/        # Full inventory: 109 skills, 38 personas, 40+ plugins
 ├── essays/       # Writing from this practice
 ├── journal/      # Decisions log
@@ -106,7 +106,7 @@ chmod +x ~/.claude/scripts/*.sh
 
 ## Remote Access
 
-[Every way to run the agent remotely](remote/access-guide.md) — from iPhone, tablet, or another machine. Real-world comparison, not a spec sheet.
+[Every way to run the agent remotely](remote/access-guide.md), from iPhone, tablet, or another machine. Real-world comparison, not a spec sheet.
 
 | Method | Mobile UX | Reliability | Setup |
 |--------|-----------|-------------|-------|
@@ -142,13 +142,13 @@ The full inventory. [Detailed breakdown →](setup/overview.md)
 
 **7 quality rules** baked into the global instructions file:
 
-1. **Anti-hallucination** — never use simulated, invented, or approximate data
-2. **Return to plan mode** — if a fix fails, stop. Don't spiral. Re-plan.
-3. **Scrap and redo** — when output is mediocre, restart from scratch with accumulated context
-4. **Self-update** — the agent updates its own rules after every significant error
-5. **Use subagents** — parallelize complex tasks, keep main context clean
-6. **Verify your work** — never say "done" without proof
-7. **Confrontation mode** — challenge choices, say no when justified
+1. **Anti-hallucination**: never use simulated, invented, or approximate data
+2. **Return to plan mode**: if a fix fails, stop. Don't spiral. Re-plan.
+3. **Scrap and redo**: when output is mediocre, restart from scratch with accumulated context
+4. **Self-update**: the agent updates its own rules after every significant error
+5. **Use subagents**: parallelize complex tasks, keep main context clean
+6. **Verify your work**: never say "done" without proof
+7. **Confrontation mode**: challenge choices, say no when justified
 
 ---
 
@@ -170,7 +170,7 @@ The full inventory. [Detailed breakdown →](setup/overview.md)
 
 | Essay | Topic |
 |-------|-------|
-| [On Agentic Engineering](essays/2026-02-25-on-agentic-engineering.md) | Notes from a filmmaker who's been through multiple technological ruptures — and recognizes this one. |
+| [On Agentic Engineering](essays/2026-02-25-on-agentic-engineering.md) | Notes from a filmmaker who's been through multiple technological ruptures, and recognizes this one. |
 | [The Adoption Ladder and the Scripte](essays/2026-07-17-the-adoption-ladder-and-the-scripte.md) ([FR](essays/2026-07-17-the-adoption-ladder-and-the-scripte.fr.md)) | What an engineering AI-maturity model misses about creative work: cinema's verification loops were made of people, and a solo practice has to rebuild them as agents. |
 
 ## Journal
@@ -183,18 +183,18 @@ The full inventory. [Detailed breakdown →](setup/overview.md)
 
 | Source | What we learned |
 |--------|----------------|
-| [gmoney.eth — 25 lessons](sources/2026-02-15-gmoney-25-tips.md) | Each tip scored: implemented, explored, or decided against. |
-| [Karpathy — Vibe Coding](sources/2025-02-02-karpathy-vibe-coding.md) | The original tweet (6.7M views). Why this repo makes vibe coding sustainable. |
+| [gmoney.eth: 25 lessons](sources/2026-02-15-gmoney-25-tips.md) | Each tip scored: implemented, explored, or decided against. |
+| [Karpathy: Vibe Coding](sources/2025-02-02-karpathy-vibe-coding.md) | The original tweet (6.7M views). Why this repo makes vibe coding sustainable. |
 
 ---
 
 ## Influences
 
-- [Trail of Bits](https://github.com/trailofbits/claude-code-config) — opinionated security defaults
-- [@bcherny](https://x.com/bcherny) (the CLI's creator) — team tips
-- [@gmoneyNFT](https://x.com/gmoneyNFT) — 25 lessons from daily multi-agent usage
-- [@__BOMO](https://x.com/__BOMO) — context window statusline
+- [Trail of Bits](https://github.com/trailofbits/claude-code-config): opinionated security defaults
+- [@bcherny](https://x.com/bcherny) (the CLI's creator): team tips
+- [@gmoneyNFT](https://x.com/gmoneyNFT): 25 lessons from daily multi-agent usage
+- [@__BOMO](https://x.com/__BOMO): context window statusline
 
 ---
 
-*This is not a template to copy. It's a reference for people building their own relationship with an AI coding tool — especially non-developers using it for creative work.*
+*This is not a template to copy. It's a reference for people building their own relationship with an AI coding tool: especially non-developers using it for creative work.*

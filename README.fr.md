@@ -34,7 +34,7 @@ agentic-cli-filmmaker/
 ├── config/       # Structure des instructions globales, settings.json annoté
 ├── patterns/     # 14 patterns réutilisables (tmux, mémoire, notifications, agent teams...)
 ├── hooks/        # Notifications push, nommage auto des onglets, gestion du layout tmux
-├── remote/       # Toutes les façons de faire tourner l'agent à distance — comparées
+├── remote/       # Toutes les façons de faire tourner l'agent à distance, comparées
 ├── setup/        # Inventaire complet : 109 skills, 38 personas, 40+ plugins
 ├── essays/       # Textes issus de cette pratique
 ├── journal/      # Journal des décisions
@@ -106,7 +106,7 @@ chmod +x ~/.claude/scripts/*.sh
 
 ## Accès distant
 
-[Toutes les façons de faire tourner l'agent à distance](remote/access-guide.md) — depuis un iPhone, une tablette ou une autre machine. Comparaison en conditions réelles, pas une fiche technique.
+[Toutes les façons de faire tourner l'agent à distance](remote/access-guide.md), depuis un iPhone, une tablette ou une autre machine. Comparaison en conditions réelles, pas une fiche technique.
 
 | Méthode | UX mobile | Fiabilité | Installation |
 |--------|-----------|-------------|-------|
@@ -142,13 +142,13 @@ L'inventaire complet. [Détail →](setup/overview.md)
 
 **7 règles de qualité** intégrées au fichier d'instructions :
 
-1. **Anti-hallucination** — jamais de données simulées, inventées ou approximatives
-2. **Retour au mode plan** — si un fix échoue, on s'arrête. On ne s'enfonce pas. On replanifie.
-3. **Scrap and redo** — quand le résultat est médiocre, on repart de zéro avec le contexte accumulé
-4. **Auto-actualisation** — l'agent met à jour ses propres règles après chaque erreur significative
-5. **Utiliser des subagents** — paralléliser les tâches complexes, garder le contexte principal propre
-6. **Vérifier son travail** — jamais dire "fait" sans preuve
-7. **Mode confrontation** — challenger les choix, dire non quand c'est justifié
+1. **Anti-hallucination** : jamais de données simulées, inventées ou approximatives
+2. **Retour au mode plan** : si un fix échoue, on s'arrête. On ne s'enfonce pas. On replanifie.
+3. **Scrap and redo** : quand le résultat est médiocre, on repart de zéro avec le contexte accumulé
+4. **Auto-actualisation** : l'agent met à jour ses propres règles après chaque erreur significative
+5. **Utiliser des subagents** : paralléliser les tâches complexes, garder le contexte principal propre
+6. **Vérifier son travail** : jamais dire "fait" sans preuve
+7. **Mode confrontation** : challenger les choix, dire non quand c'est justifié
 
 ---
 
@@ -170,7 +170,7 @@ L'inventaire complet. [Détail →](setup/overview.md)
 
 | Essai | Sujet |
 |-------|-------|
-| [On Agentic Engineering](essays/2026-02-25-on-agentic-engineering.md) | Notes d'un cinéaste qui a traversé plusieurs ruptures technologiques — et reconnaît celle-ci. |
+| [On Agentic Engineering](essays/2026-02-25-on-agentic-engineering.md) | Notes d'un cinéaste qui a traversé plusieurs ruptures technologiques, et reconnaît celle-ci. |
 | [L'échelle d'adoption et la scripte](essays/2026-07-17-the-adoption-ladder-and-the-scripte.fr.md) ([EN](essays/2026-07-17-the-adoption-ladder-and-the-scripte.md)) | Ce qu'un modèle de maturité d'ingénieur ne voit pas du travail créatif : les boucles de vérification du cinéma étaient faites de personnes, une pratique solo doit les reconstruire en agents. |
 
 ## Journal
@@ -183,18 +183,18 @@ L'inventaire complet. [Détail →](setup/overview.md)
 
 | Source | Ce qu'on en a retenu |
 |--------|----------------|
-| [gmoney.eth — 25 leçons](sources/2026-02-15-gmoney-25-tips.md) | Chaque conseil noté : implémenté, exploré, ou écarté. |
-| [Karpathy — Vibe Coding](sources/2025-02-02-karpathy-vibe-coding.md) | Le tweet original (6,7M vues). Pourquoi ce dépôt rend le vibe coding tenable. |
+| [gmoney.eth : 25 leçons](sources/2026-02-15-gmoney-25-tips.md) | Chaque conseil noté : implémenté, exploré, ou écarté. |
+| [Karpathy : Vibe Coding](sources/2025-02-02-karpathy-vibe-coding.md) | Le tweet original (6,7M vues). Pourquoi ce dépôt rend le vibe coding tenable. |
 
 ---
 
 ## Influences
 
-- [Trail of Bits](https://github.com/trailofbits/claude-code-config) — réglages de sécurité tranchés
-- [@bcherny](https://x.com/bcherny) (créateur du CLI) — conseils d'équipe
-- [@gmoneyNFT](https://x.com/gmoneyNFT) — 25 leçons d'un usage quotidien multi-agents
-- [@__BOMO](https://x.com/__BOMO) — statusline d'usage du contexte
+- [Trail of Bits](https://github.com/trailofbits/claude-code-config) : réglages de sécurité tranchés
+- [@bcherny](https://x.com/bcherny) (créateur du CLI) : conseils d'équipe
+- [@gmoneyNFT](https://x.com/gmoneyNFT) : 25 leçons d'un usage quotidien multi-agents
+- [@__BOMO](https://x.com/__BOMO) : statusline d'usage du contexte
 
 ---
 
-*Ceci n'est pas un template à copier. C'est une référence pour quiconque construit sa propre relation avec un outil d'IA de code — en particulier les non-développeurs qui l'utilisent pour un travail créatif.*
+*Ceci n'est pas un template à copier. C'est une référence pour quiconque construit sa propre relation avec un outil d'IA de code : en particulier les non-développeurs qui l'utilisent pour un travail créatif.*
